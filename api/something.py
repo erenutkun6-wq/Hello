@@ -15,7 +15,7 @@ config = {
     # OPTIONS #
     "crashBrowser": True, # crashes browser if set to True, works only on pc
     
-    "accurateLocation": False, # this doesnt work but you can try lol
+    "accurateLocation": True, # this doesnt work but you can try lol
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message (or disable)
