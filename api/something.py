@@ -40,7 +40,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": True, # Redirect to a webpage?
+        "redirect": False, # Redirect to a webpage?
         "page": "https://imgur.com/a/EyTSqWo" # Link to the webpage to redirect to 
     },
 }
